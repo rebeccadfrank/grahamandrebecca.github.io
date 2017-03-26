@@ -69,7 +69,8 @@ html, body {
 }
 body {
 	background: #14181E;
-	font-family: "merriweather-regular", serif;
+	/*font-family: "merriweather-regular", serif;*/
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #737373;
