@@ -719,7 +719,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro {
 	max-width: 700px;
-	text-align: center;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5.2rem;
@@ -1148,7 +1148,7 @@ a.menu-toggle {
  */
 
 #intro {
-	background: #14181E url(../images/intro-bg.jpg) no-repeat center;
+	background: #14181E url(../images/illum_off_center.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1403,50 +1403,50 @@ a.menu-toggle {
 
 /** 
  * ===================================================================
- * process section
+ * what section
  *
  * ------------------------------------------------------------------- 
  */
 
-#process {
+#what {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 	overflow: hidden;
 }
-.process-content {
+.what-content {
 	position: relative;
 	text-align: center;
 }
-.process-content .right-side,
-.process-content .left-side,
-.process-content .image-part {
+.what-content .right-side,
+.what-content .left-side,
+.what-content .image-part {
 	width: 33.33333%;
 	font-size: 15px;
 	line-height: 27px;
 }
-.process-content .right-side, .process-content .left-side {
+.what-content .right-side, .what-content .left-side {
 	padding: 0 6% 24px;
 	position: absolute;
 	top: 0;
 }
-.process-content .right-side {
+.what-content .right-side {
 	right: 0;
 }
-.process-content .left-side {
+.what-content .left-side {
 	left: 0;
 }
-.process-content .image-part {
+.what-content .image-part {
 	margin: 0 auto;
 	height: 660px;
-	background-image: url("../images/appdesign.jpg");
+	background-image: url("../images/jolly.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	background-size: contain;
 }
-.process-content .item[data-item]::before {
+.what-content .item[data-item]::before {
 	background: #38424e;
 	color: #FFFFFF;
 	border-radius: 100%;
@@ -1461,7 +1461,7 @@ a.menu-toggle {
 	vertical-align: middle;
 	margin-bottom: 1.5rem;
 }
-.process-content h5 {
+.what-content h5 {
 	color: #05bca9;
 	font-size: 1.6rem;
 	line-height: 1.875;
@@ -1471,7 +1471,7 @@ a.menu-toggle {
 
 /**
  * responsive:
- * process
+ * what
  * -
  */
 
@@ -1521,13 +1521,13 @@ a.menu-toggle {
 
 /** 
  * ===================================================================
- * features section
+ * wherewhen section
  *
  * ------------------------------------------------------------------- 
  */
 
-#features {
-	background: #090909 url(../images/features-bg.jpg) no-repeat center;
+#wherewhen {
+	background: #090909 url(../images/freighthouse.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1535,34 +1535,34 @@ a.menu-toggle {
 	padding-bottom: 12rem;
 	color: white;
 }
-#features .section-intro h1 {
+#wherewhen .section-intro h1 {
 	color: white;
 }
-#features .section-intro h5 {
+#wherewhen .section-intro h5 {
 	color: rgba(255, 255, 255, 0.5);
 }
-#features .section-intro p {
+#wherewhen .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.features-content {
+.wherewhen-content {
 	max-width: 1200px;
 }
-.features-list {
+.wherewhen-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.features-list .feature {
+.wherewhen-list .feature {
 	margin-bottom: 1.2rem;
 	padding: 0 32px;
 }
-.features-list .icon {
+.wherewhen-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.features-list .icon i {
+.wherewhen-list .icon i {
 	font-size: 4.8rem;
 }
-.features-list .h05 {
+.wherewhen-list .h05 {
 	font-size: 1.7rem;
 	line-height: 1.765;
 	color: #05bca9;
@@ -1571,25 +1571,25 @@ a.menu-toggle {
 
 /**
  * responsive:
- * features
+ * wherewhen
  * -
  */
 
 @media only screen and (max-width:768px) {
-	.features-content {
+	.wherewhen-content {
 		max-width: 600px;
 	}
-	.features-list .feature {
+	.wherewhen-list .feature {
 		padding: 0 15px;
 	}
 }
 @media only screen and (max-width:600px) {
-	.features-list .feature {
+	.wherewhen-list .feature {
 		padding: 0 10px;
 	}
 }
 @media only screen and (max-width:400px) {
-	.features-list .feature {
+	.wherewhen-list .feature {
 		padding: 0;
 	}
 }
@@ -1597,53 +1597,53 @@ a.menu-toggle {
 
 /** 
  * ===================================================================
- * pricing section
+ * rsvp section
  *
  * ------------------------------------------------------------------- 
  */
 
-#pricing {
+#rsvp {
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
-.pricing-content {
+.rsvp-content {
 	margin-top: 6.6rem;
 	max-width: 1280px;
 }
-.pricing-content .bgrid {
+.rsvp-content .bgrid {
 	margin-bottom: 3.6rem;
 }
-.pricing-content .price-block {
+.rsvp-content .price-block {
 	background-color: #FFFFFF;
 	border-radius: 5px;
 	overflow: hidden;
 	text-align: center;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.pricing-content .price-block .top-part,
-.pricing-content .price-block .bottom-part {
+.rsvp-content .price-block .top-part,
+.rsvp-content .price-block .bottom-part {
 	padding: 3.9rem 1.5rem;
 }
-.pricing-content .price-block .top-part {
+.rsvp-content .price-block .top-part {
 	background: #58687b;
 	color: #FFFFFF;
 	padding-bottom: 2.4rem;
 	position: relative;
 }
-.pricing-content .price-block .bottom-part {
+.rsvp-content .price-block .bottom-part {
 	padding-top: 2.4rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
-.pricing-content .price-block .plan-title {
+.rsvp-content .price-block .plan-title {
 	color: #FFFFFF;
 	padding-bottom: 2.4rem;
 	margin-bottom: 1.2rem;
 	font-size: 2.4rem;
 	position: relative;
 }
-.pricing-content .price-block .plan-title::after {
+.rsvp-content .price-block .plan-title::after {
 	display: block;
 	background-color: rgba(255, 255, 255, 0.3);
 	width: 80px;
@@ -1654,60 +1654,60 @@ a.menu-toggle {
 	bottom: 0;
 	margin-left: -40px;
 }
-.pricing-content .price-block .plan-price {
+.rsvp-content .price-block .plan-price {
 	font-family: "raleway-bold", sans-serif;
 	font-size: 5rem;
 	line-height: 1;
 	margin-bottom: .6rem;
 }
-.pricing-content .price-block .plan-price sup {
+.rsvp-content .price-block .plan-price sup {
 	font-size: 2.4rem;
 	top: -1.5rem;
 	margin-right: 3px;
 }
-.pricing-content .price-block .price-month {
+.rsvp-content .price-block .price-month {
 	margin-bottom: 1.2rem;
 	font-family: "raleway-bold", sans-serif;
 	font-size: 1.6rem;
 }
-.pricing-content .price-block .price-meta {
+.rsvp-content .price-block .price-meta {
 	color: rgba(255, 255, 255, 0.5);
 	line-height: 1.8rem;
 }
-.pricing-content .price-block .button {
+.rsvp-content .price-block .button {
 	color: #353F49;
 	padding: 0 5rem;
 	margin-left: auto;
 	margin-right: auto;
 }
-.pricing-content .price-block .button:hover,
-.pricing-content .price-block .button:focus {
+.rsvp-content .price-block .button:hover,
+.rsvp-content .price-block .button:focus {
 	background: #58687b;
 	color: #FFFFFF;
 }
-.pricing-content .price-block .features {
+.rsvp-content .price-block .features {
 	list-style: none;
 	font-family: "raleway-bold", sans-serif;
 	font-size: 1.5rem;
 	color: rgba(0, 0, 0, 0.4);
 	margin: .6rem 0 1.8rem 0;
 }
-.pricing-content .price-block .features li {
+.rsvp-content .price-block .features li {
 	padding: .6rem 0;
 	border-bottom: 1px solid #EAEAED;
 }
-.pricing-content .price-block .features li strong {
+.rsvp-content .price-block .features li strong {
 	color: #353F49;
 	font-family: "raleway-bold", serif;
 	margin-right: 5px;
 }
-.pricing-content .price-block .features li:last-child {
+.rsvp-content .price-block .features li:last-child {
 	border: none;
 }
-.pricing-content .primary .top-part {
+.rsvp-content .primary .top-part {
 	background: #05bca9;
 }
-.pricing-content .primary .top-part::before {
+.rsvp-content .primary .top-part::before {
 	content: attr(data-info);
 	display: block;
 	min-height: 48px;
@@ -1732,27 +1732,27 @@ a.menu-toggle {
 
 /**
  * responsive:
- * pricing
+ * rsvp
  * -
  */
 
 @media only screen and (max-width:1140px) {
-	.pricing-content {
+	.rsvp-content {
 		max-width: 800px;
 	}
-	.pricing-content .bgrid {
+	.rsvp-content .bgrid {
 		width: 50%;
 		clear: none;
 	}
-	.pricing-content .bgrid:nth-child(2n+1) {
+	.rsvp-content .bgrid:nth-child(2n+1) {
 		clear: both;
 	}
 }
 @media only screen and (max-width:600px) {
-	.pricing-content {
+	.rsvp-content {
 		max-width: 420px;
 	}
-	.pricing-content .bgrid {
+	.rsvp-content .bgrid {
 		width: 100% !important;
 		float: none !important;
 		clear: both !important;
