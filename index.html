@@ -198,6 +198,17 @@
 
      <div class="row">
          <div class="col-twelve">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+            <style>
+                        .overlay {
+               background:transparent; 
+               position:relative; 
+               width:100%;
+               height:480px; /* your iframe height */
+               top:480px;  /* your iframe height */
+               margin-top:-480px;  /* your iframe height */
+            }
+            </style>
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1BXWgjWhWj2pRerVPpmzSbVr-xZ0" width="100%" height="480"></iframe>
          </div>
       </div>
