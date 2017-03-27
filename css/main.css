@@ -2584,6 +2584,7 @@ footer ul li {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	border-top-left-radius: 5px;
 }
 #go-top a i {
 	font-size: 20px;
